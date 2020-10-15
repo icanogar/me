@@ -16,7 +16,7 @@ title: Iñaki Cano García
 email: icanogar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Página personal de Iñaki Cano García
-baseurl: "/me" # the subpath of your site, e.g. /blog
+baseurl: "/icanogar.gitlab.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
