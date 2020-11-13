@@ -23,8 +23,32 @@ $regular-font-size: 1.25em; /* 20px / 16px = 1.25em; support text resizing in al
 
 $text-color: #454545;
 $heading-color: #404040;
-$link-color: #841212;
+$link-color: darkslateblue;
 
 @import "ed";
 @import "syntax";
 @import "CETEIcean.css";
+
+.flexbox {
+  display: flex;
+}
+
+.flexme {
+  flex: 1;
+}
+
+.justifyme {
+  text-align: justify;
+}
+
+.centerme {
+  text-align: center;
+}
+
+h2 {
+  color: darkslateblue;
+}
+
+h3 {
+  color: darkslateblue;
+}
