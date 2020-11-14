@@ -45,10 +45,16 @@ $link-color: darkslateblue;
   text-align: center;
 }
 
-h2 {
+h1, h2, h3 {
   color: darkslateblue;
+  margin-bottom: 0.2rem;
 }
 
 h3 {
-  color: darkslateblue;
+  margin-top: 0.5rem;
+}
+
+hr {
+  background-color: darkslateblue;
+  height: 5px;
 }
