@@ -12,12 +12,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Iñaki Cano García
+title: 'Iñaki Cano García'
+author: 'Iñaki Cano García'
+date: '2021-06-18'
 email: icanogar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Persönliche Seiten von / Páginas personales de / Peronsal pages of Iñaki Cano García
+  Persönliche Seiten von / Páginas personales de / Personal pages of Iñaki Cano García
 baseurl: "/me" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://icanogar.gitlab.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme:
