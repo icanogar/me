@@ -15,22 +15,27 @@
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
+      `layout: X` in the front-matter. See readme for usage.
     {% endcomment %}
 
-    {% assign pages_list = site.pages | sort:"url" %}
+    {% assign pages_list = site.pages | sort:"weight" %}
     {% for node in pages_list %}
       {% if node.title != null and node.url != "/404.html" %}
-        {% if node.layout == "page" or node.layout == "tei" %}
+        {% if node.layout == "page_de" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
 
-    <!-- The code below is used for manually entered links  -->
+    <!-- Hay que encontrar la manera de generar diferentes sidebars dependiendo de node.layout == "page_es, _de o lo que sea" -->
+
+    <!-- The code below is used for manually entered links  
     <span style='cursor:pointer;' onclick="javascript:var hypothesis = document.createElement('script');
       hypothesis.setAttribute('src','https://hypothes.is/embed.js');
       document.head.appendChild(hypothesis);"><a class="sidebar-nav-item">Annotate me</a></span>
+
+  Descomenta lo siguiente si quieres que reaparezca el "Annotate me" mandando este cierre de comentario al final de la
+  línea 30-->
 
   <!--
     <a class="sidebar-nav-item" href="https://via.hypothes.is/{{ site.url }}{{ site.baseurl }}{{page.url}}/" data-proofer-ignore>Annotate me</a>
@@ -42,9 +47,8 @@
 
   <div class="sidebar-item">
     <p>
-      Built with <a href="https://minicomp.github.io/ed/">Ed.</a> distributed under an MIT license;
-      and <a href="https://teic.github.io/CETEIcean/">CETEIcean</a> distributed under a BSD 2-Clause "Simplified" License.
-      <br/>Other content is intellectually protected</a>.
+      Built with <a href="https://minicomp.github.io/ed/">Ed.</a> distributed under an MIT license.
+      <br/>Other contents are intellectually protected.
     </p>
   </div>
 </aside>
