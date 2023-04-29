@@ -10,8 +10,8 @@ sitemap: false
 */
 
 /* Fonts */
-$main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-$heading-font: "Palatino Linotype", sans-serif;
+$main-font: "PT Sans", Helvetica, serif;
+$heading-font: Helvetica, sans-serif;
 $regular-font-size: 1.25em; /* 20px / 16px = 1.25em; support text resizing in all browsers */
 
 
@@ -23,7 +23,7 @@ $regular-font-size: 1.25em; /* 20px / 16px = 1.25em; support text resizing in al
 
 $text-color: #454545;
 $heading-color: #404040;
-$link-color: darkslateblue;
+$link-color: #dc931b;
 
 @import "ed";
 @import "syntax";
@@ -38,11 +38,11 @@ $link-color: darkslateblue;
 }
 
 .item1 {
-  flex: 60%;
+  flex: 50%;
 }
 
 .item2 {
-  flex: 40%;
+  flex: 50%;
 }
 
 .justifyme {
@@ -54,7 +54,7 @@ $link-color: darkslateblue;
 }
 
 h1, h2, h3 {
-  color: darkslateblue;
+  color: #dc931b;
   margin-bottom: 0.2rem;
 }
 
@@ -63,7 +63,7 @@ h3 {
 }
 
 hr {
-  background-color: darkslateblue;
+  background-color: #dc931b;
   height: 5px;
 }
 
