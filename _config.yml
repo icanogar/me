@@ -14,10 +14,10 @@
 
 title: 'Iñaki Cano'
 author: 'Iñaki Cano'
-date: '2024-05.03'
+date: '2024-05-03'
 email: icanogar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Persönliche Seiten von / Páginas personales de / Personal pages of Iñaki Cano
+  Persöliche Seiten von / Páginas personales de / Personal pages of Iñaki Cano
 baseurl: "/me" # the subpath of your site, e.g. /blog
 url: "https://icanogar.gitlab.io" # the base hostname & protocol for your site, e.g. http://example.com
 
