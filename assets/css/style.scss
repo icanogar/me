@@ -29,6 +29,14 @@ $link-color: #dc931b;
 @import "syntax";
 @import "CETEIcean.css";
 
+html {
+  min-height: 100%;
+  overflow-y: scroll;
+}    
+body {
+   min-height: 100%;
+}
+
 .flexbox {
   display: flex;
 }
